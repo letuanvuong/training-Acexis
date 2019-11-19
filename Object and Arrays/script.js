@@ -68,4 +68,5 @@ console.log(wes)
 const dev = Object.assign({}, wes)
 console.log('Day la dev:',dev)
 
+// chuyen doi doi tuong thanh 1 chuoi
 const dev2 = JSON.parse(JSON.stringify(wes))
