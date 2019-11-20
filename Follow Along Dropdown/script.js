@@ -5,7 +5,7 @@ const nav = document.querySelector('.top')
 
 function handlEnter () {
   this.classList.add('trigger-enter')
-  setTimeout(() =>this.classList.contains('trigger-enter') &&
+  setTimeout(() => this.classList.contains('trigger-enter') &&
     this.classList.add('trigger-enter-active'), 150)
   backgrounds.classList.add('open')
 
