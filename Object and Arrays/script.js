@@ -70,3 +70,6 @@ console.log('Day la dev:',dev)
 
 // chuyen doi doi tuong thanh 1 chuoi
 const dev2 = JSON.parse(JSON.stringify(wes))
+
+//JSON.parse(): nhan vao 1 chuoi JSON  và chuyen thanh 1 doi tuong javascript
+//JSON.stringify(): nhan vao 1 doi tuong javascript va chuyen thanh 1 chuoi JSON
