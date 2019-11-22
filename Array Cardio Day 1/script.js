@@ -40,6 +40,7 @@ console.table(ordered)
 // Array.prototype.reduce()
 // 4. How many years did all the inventors live?
 const totalYears = inventors.reduce((total, inventor) => {
+  //total la tong so nam duoc cong don tu dau den cuoi: passed - year sau do + cho so du cua lan tiep theo
   return total + (inventor.passed - inventor.year)
 }, 0)
 console.log(totalYears)
@@ -82,4 +83,4 @@ const consportation = data.reduce((obj, item) => {
   return obj
 }, {})
 
-console.log(consportation)
+console.log('data:',consportation)
